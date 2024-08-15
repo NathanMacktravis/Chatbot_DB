@@ -48,10 +48,4 @@ relations = [
 ]
 
 for relation in relations:
-    draw_relation(ax, relation[0], relation[1], relation[2])
-
-ax.set_xlim(0, 12)
-ax.set_ylim(-1, 12)
-ax.axis('off')
-
-plt.show()
+    draw_relation(ax, relation[0], relation[1], relati
